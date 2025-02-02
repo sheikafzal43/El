@@ -1,0 +1,105 @@
+/* Custom CSS */
+.chat-support {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 1000;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.chat-support:hover {
+    transform: scale(1.1);
+}
+
+/* .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+} */
+
+.offer-card {
+    transition: transform 0.3s ease;
+}
+
+.offer-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Custom Carousel Height */
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Footer Styles */
+footer {
+    font-size: 0.9rem;
+}
+.social-icons a {
+    font-size: 0.8rem;
+    transition: color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #ffc107; /* Yellow hover effect */
+}
+footer .input-group {
+    width: 100%;
+}
+footer .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+footer .btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
+footer .border-top {
+    border-color: rgba(182, 166, 166, 0.1);
+}
+.social-icons a {
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #ffc107; /* Change color on hover */
+}
+
+/*Height of Hero */
+
+/* Custom Carousel Height */
+.carousel-item {
+    height: 70vh; /* Changed from 100vh to 70vh */
+    min-height: 400px; /* Added minimum height for smaller screens */
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Optional: Adjust caption positioning */
+.carousel-caption {
+    bottom: 30%; /* Adjust this value if needed */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 50vh; /* Smaller height for mobile devices */
+        min-height: 300px;
+    }
+    
+    .carousel-caption h2 {
+        font-size: 2rem !important;
+    }
+    
+    .carousel-caption p {
+        font-size: 1.25rem !important;
+    }
+}
